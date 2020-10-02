@@ -6,3 +6,5 @@ pytest-xdist==1.26.1
 requests==2.21.0
 selenium==3.6.0
 websocket-client==0.54.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
